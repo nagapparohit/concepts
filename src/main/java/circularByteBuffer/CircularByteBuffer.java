@@ -10,6 +10,7 @@ public class CircularByteBuffer {
 	
 	
 	public CircularByteBuffer(int capacity) {
+		this.capacity = capacity;
 		this.buffer = new byte[capacity];
 	}
 	
